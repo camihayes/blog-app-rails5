@@ -20,7 +20,7 @@ class ArticlesController < ApplicationController
   
   def show
     @article = Article.find(params[:id])
-  end 
+  end
   
   private
   
@@ -28,4 +28,5 @@ class ArticlesController < ApplicationController
       params.require(:article).permit(:title, :body)
     end
 end
+
 
