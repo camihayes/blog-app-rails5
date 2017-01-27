@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Editing and article" do
+RSpec.feature "Editing an Article" do
   
   before do
     @article = Article.create(title: "Title One", body: "Body of article one")
